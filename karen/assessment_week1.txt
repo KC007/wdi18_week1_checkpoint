@@ -1,0 +1,53 @@
+1. mkdir scoobies vamps
+2.cd scoobies 
+    touch buffy.txt giles.txt angel.txt
+3. cp angel.txt ../vamps/
+4. cd ..
+    rm -r vamps
+
+
+Js variables 
+1. var captain = "Jack";
+
+2. var phrase = " Oh " + captain + ", my " + captain + " !"
+
+
+JS conditionals
+
+var souls = 3;
+var lifeRafts = 2;
+
+if (souls > lifeRafts){
+        console.log ("SOS!");
+} else { console.log (" .")
+}
+
+JS Arrays
+
+1.  var weekend = [ "Saturday" ];
+2. weekend.push (Sunday);
+3. weekend.unshift (Friday);
+4. var day = weekend[2];
+5. weekend.shift (Friday);
+
+Data strucutres -Js objects 
+
+var brain ={energyLevel : 10};
+
+var energy = brain.energyLevel;
+
+brain.dream = "electric sheep";
+
+brain.dayDream = { lunch :["burger", "beer"]};
+
+brain.dayDream.lunch.push("pudding");
+
+
+JS function 
+
+var calcTraingleArea = function(length, width) {
+    return ((length * width)/2)   
+}
+var result = calcTraingleArea(3,4);
+
+console.log(result);
